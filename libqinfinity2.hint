@@ -1,0 +1,5 @@
+category: KDE
+requires: libgcc1 libglib2.0_0 libinfinity0.4_0 libQtCore4 libQtGui4 libQtNetwork4 libstdc++6
+external-source: libqinfinity
+sdesc: "Qt libinfinity interface (runtime)"
+ldesc: "Libqinfinity is a Qt-style interface to libinfinity, used by Kobby."

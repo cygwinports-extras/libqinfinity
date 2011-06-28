@@ -1,0 +1,5 @@
+category: KDE
+requires: libqinfinity2 libglib2.0-devel gnutls-devel libgsasl-devel libinfinity0.4-devel libQtCore4-devel libQtGui4-devel libQtNetwork4-devel
+external-source: libqinfinity
+sdesc: "Qt libinfinity interface (development)"
+ldesc: "Libqinfinity is a Qt-style interface to libinfinity, used by Kobby."
