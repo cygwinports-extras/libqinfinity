@@ -1,0 +1,15 @@
+inherit qt4-cmake
+
+NAME="libqinfinity"
+VERSION=1.0b5
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Qt libinfinity interface"
+DESCRIPTION="Libqinfinity is a Qt-style interface to libinfinity, used by Kobby."
+HOMEPAGE="http://kobby.greghaynes.net/"
+SRC_URI="http://kobby.greghaynes.net/file-cabinet/${NAME}-${VERSION}.tar.gz?attredirects=0&d=1"
+PATCH_URI="1.0b5-cmake-install.patch"
+
+PKG_NAMES="libqinfinity2 libqinfinity-devel"
+libqinfinity2_CONTENTS="usr/bin/cygqinfinity-2.dll"
+libqinfinity_devel_CONTENTS="usr/include/ usr/lib/ usr/share/doc/"
