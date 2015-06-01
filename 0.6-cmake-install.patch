@@ -1,0 +1,13 @@
+--- origsrc/libqinfinity-0.6/libqinfinity/CMakeLists.txt	2014-09-20 07:50:50.000000000 -0500
++++ src/libqinfinity-0.6/libqinfinity/CMakeLists.txt	2015-06-01 18:36:29.200504900 -0500
+@@ -103,7 +103,9 @@ set_target_properties(qinfinity
+ target_link_libraries(qinfinity ${LIBS})
+ 
+ install(TARGETS qinfinity
+-	DESTINATION lib${LIB_SUFFIX})
++	LIBRARY DESTINATION lib${LIB_SUFFIX}
++	RUNTIME DESTINATION bin
++	ARCHIVE DESTINATION lib${LIB_SUFFIX})
+ 
+ install(FILES ${QInfinity_HDRS}
+ 	DESTINATION include/libqinfinity)
